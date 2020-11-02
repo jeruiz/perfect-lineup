@@ -66,7 +66,7 @@ function totalSalary(lineup) {
   }, {})
 
   for (let index in totalSalary) {
-    if (totalSalary[index] < 45000) return false
+    if (totalSalary[index] > 45000) return false
   }
 
   return true
