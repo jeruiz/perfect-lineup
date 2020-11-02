@@ -2,7 +2,7 @@ function validateLineup(lineup) {
   return playerCounter(lineup) &&
  gameCounter(lineup) &&
  positionCounter(lineup) &&
- payroll(lineup) &&
+ totalSalary(lineup) &&
  lineup.length === 9
 }
 function playerCounter(lineup) {
